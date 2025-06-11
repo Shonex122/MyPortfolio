@@ -400,6 +400,7 @@ textarea {
   border-radius: 8px;
   color: white;
   font-size: 1rem;
+  caret-color: #00ff88;
 }
 
 .contact-form input:focus,
