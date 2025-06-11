@@ -66,11 +66,9 @@ nav a {
   color: #00ff88;
 }
 
-.phatom .phatom1 {
+nav .fa-xmark,
+nav .fa-bars {
   display: none;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
 }
 
 /* Home Section */
@@ -452,6 +450,15 @@ textarea {
     padding: 1rem 3%;
   }
 
+  nav .fa-xmark,
+  nav .fa-bars {
+    display: block;
+    color: #a5b452;
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+  }
+
   .nav-links {
     position: fixed;
     top: 0;
@@ -480,12 +487,15 @@ textarea {
     font-size: 1.5rem;
   }
 
-  .fa-bars,
-  .fa-times {
-    display: none !important;
+  .menu-toggle.active .fa-bars {
+    display: none;
   }
 
-  .fa-times {
+  .menu-toggle.active .fa-times {
+    display: block;
+  }
+
+  .fa-xmark {
     position: absolute;
     top: 2rem;
     right: 3%;
@@ -591,11 +601,6 @@ textarea {
   .contact-form input,
   .contact-form textarea {
     padding: 12px;
-  }
-
-  .fa-times,
-  .fa-bars {
-    display: none;
   }
 
   .contact-icons {
