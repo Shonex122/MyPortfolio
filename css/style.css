@@ -496,11 +496,11 @@ textarea {
     display: block;
   }
 
-  .fa-xmark {
+  /* .fa-xmark {
     position: absolute;
     top: 2rem;
     right: 3%;
-  }
+  } */
 
   .home {
     padding: 2rem 3%;
