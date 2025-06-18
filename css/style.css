@@ -87,10 +87,10 @@ nav a {
   z-index: 1002;
 }
 
-/* nav .fa-xmark,
+nav .fa-xmark,
 nav .fa-bars {
-  display: none;
-} */
+  color: #00ff88;
+}
 
 /* Home Section */
 .home {
