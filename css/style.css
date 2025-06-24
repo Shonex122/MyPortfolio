@@ -66,6 +66,20 @@ nav a {
   color: #00ff88;
 }
 
+.nav-links ul li::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: #00ff88;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover:after {
+  width: 100%;
+}
+
 .menu-toggle {
   display: none;
   background: none;
